@@ -1,5 +1,5 @@
 run:
 	npx tsx src/index.ts
 
-build:
-	npx tsc --outDir build 
+build: src/index.ts
+	npx tsc --outDir dist 
